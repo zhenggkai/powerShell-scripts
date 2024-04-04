@@ -11,7 +11,7 @@ namespace YourNamespace.Controllers
             var processInfo = new ProcessStartInfo
             {
                 FileName = "pwsh",
-                Arguments = "path/to/your/script.ps1",
+                Arguments = "C:\Users\User\Downloads\laptopInfo.ps1",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true
